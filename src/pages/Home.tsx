@@ -19,7 +19,7 @@ const Home = () => {
           
 
       {/* <!-- Browse Jobs --> */}
-          <JobListings />
+          <JobListings isHome={true} />
           
 
       {/* <!-- View All Jobs --> */}

@@ -1,11 +1,14 @@
 import jobs from "../jobs.json"
 import JobListing from "./JobListing";
-const JobListings = () => {
 
-    
+interface Props{
+  isHome : boolean
+}
+
+const JobListings = ({isHome = false}:Props) => {
 
     // getting recent jobs
-    const recentjobs = jobs.slice(- 3).reverse();
+    const jobListings = isHome?jobs.slice(- 3).reverse():jobs;
 
   return (
     <div>
@@ -17,7 +20,7 @@ const JobListings = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* <!-- Job Listing  --> */}
-             {recentjobs.map((job) => (
+             {jobListings.map((job) => (
                 
               <JobListing job={job} key={job.id} />
             ))}
