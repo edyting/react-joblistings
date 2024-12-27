@@ -36,9 +36,11 @@ const JobPage: React.FC = () => {
     </div>
   );
 };
+interface jobLoaderParams { id: string; }
 
-const jobLoader = async (params) => {
+const jobLoader = async (params:jobLoaderParams) => {
   const res = await fetch(`/api/jobs/${params.id}`);
+  console.log(params)
   const data: jobType = await res.json();
   return data;
 }
