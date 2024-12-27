@@ -2,7 +2,7 @@ import { useState } from "react";
 import {FaMapMarker } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-interface Props {
+export interface Props {
   job: {
     id: string;
     title: string;
