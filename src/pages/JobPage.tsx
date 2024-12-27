@@ -6,7 +6,7 @@ import { Props as jobType } from "../components/JobListing";
 
 const JobPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const job = useLoaderData<jobType>();
+  const job = useLoaderData() as jobType;
   // const [job, setJob] = useState<jobType | null>(null);
   // const [isLoading, setIsLoading] = useState(true);
 
@@ -38,11 +38,15 @@ const JobPage: React.FC = () => {
 };
 interface jobLoaderParams { id: string; }
 
-const jobLoader = async (params:jobLoaderParams) => {
-  const res = await fetch(`/api/jobs/${params.id}`);
-  console.log(params)
-  const data: jobType = await res.json();
-  return data;
-}
+ export const jobLoader = async ({ params }: { params: jobLoaderParams }) => {
+   const res = await fetch(`/api/jobs/${params.id}`);
+  //  if (!res.ok) {
+  //    throw new Error(`Error ${res.status}: ${res.statusText}`); // to handle error if any
+  //  }
 
-export{JobPage as default,jobLoader};
+   // console.log(params)
+   const data: jobType = await res.json();
+   return data;
+ };
+
+export default JobPage;
