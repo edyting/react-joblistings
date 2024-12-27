@@ -49,4 +49,6 @@ interface jobLoaderParams { id: string; }
    return data;
  };
 
+//  problem with this code was that i was using the wrong synthax for the params in loader function
+//  i was using {params:jobLoaderParams} instead of { params }: { params: jobLoaderParams } or { params }: { params: {id:string} } which was causing the error
 export default JobPage;
