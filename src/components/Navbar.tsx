@@ -11,7 +11,7 @@ const Navbar = () => {
               {/* <!-- Logo --> */}
               <NavLink
                 className="flex flex-shrink-0 items-center mr-4"
-                to="/index.html"
+                to="/"
               >
                 {/* <img
                   className="h-10 w-auto"

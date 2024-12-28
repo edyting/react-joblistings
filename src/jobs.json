@@ -1,9 +1,218 @@
 {
   "jobs": [
     {
-      "id": "1",
+      "title": "Junior React Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a Junior React Developer to join our team in San Francisco, CA. The ideal candidate will have a strong foundation in JavaScript and a passion for learning new technologies.",
+      "location": "San Francisco, CA",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a forward-thinking company specializing in web development and digital transformation. We value creativity, collaboration, and continuous learning.",
+        "contactEmail": "contact@techinnovators.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "7"
+    },
+    {
+      "title": "React Developer",
+      "type": "Internship",
+      "description": "Seeking a React Developer for a contract position in Austin, TX. The candidate should have experience with React, Redux, and RESTful APIs.",
+      "location": "Austin, TX",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Web Solutions",
+        "description": "Web Solutions is a leading provider of web development services. We are dedicated to delivering high-quality solutions to our clients.",
+        "contactEmail": "contact@websolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "8"
+    },
+    {
+      "title": "Senior Front-End Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Senior Front-End Developer in Seattle, WA. We are looking for an experienced developer with a strong background in React and modern JavaScript frameworks.",
+      "location": "Seattle, WA",
+      "salary": "$100K - $120K",
+      "company": {
+        "name": "Innovative Tech",
+        "description": "Innovative Tech is a technology company focused on delivering cutting-edge solutions. We foster a collaborative and innovative work environment.",
+        "contactEmail": "contact@innovativetech.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "9"
+    },
+    {
+      "title": "React Native Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a React Native Developer to join our team in Denver, CO. The ideal candidate will have experience with mobile development and a passion for creating high-quality applications.",
+      "location": "Denver, CO",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Mobile Solutions",
+        "description": "Mobile Solutions is a company specializing in mobile app development. We are committed to delivering innovative and user-friendly applications.",
+        "contactEmail": "contact@mobilesolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "10"
+    },
+    {
+      "title": "React Front-End Engineer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a React Front-End Engineer in Chicago, IL. We are looking for a talented individual with a passion for building scalable web applications.",
+      "location": "Chicago, IL",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "Tech Pioneers",
+        "description": "Tech Pioneers is a company dedicated to pushing the boundaries of technology. We offer a dynamic and collaborative work environment.",
+        "contactEmail": "contact@techpioneers.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "11"
+    },
+    {
+      "title": "React Developer",
+      "type": "Part-Time",
+      "description": "Join our team as a Part-Time React Developer in Los Angeles, CA. We are looking for a self-motivated individual with experience in React and a passion for creating engaging user experiences.",
+      "location": "Los Angeles, CA",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Creative Solutions",
+        "description": "Creative Solutions is a company specializing in digital design and development. We value creativity, innovation, and collaboration.",
+        "contactEmail": "contact@creativesolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "12"
+    },
+    {
+      "title": "React.js Engineer",
+      "type": "Full-Time",
+      "description": "We are looking for a React.js Engineer to join our team in Dallas, TX. The ideal candidate will have experience with React, Redux, and modern JavaScript frameworks.",
+      "location": "Dallas, TX",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a forward-thinking company specializing in web development and digital transformation. We value creativity, collaboration, and continuous learning.",
+        "contactEmail": "contact@techinnovators.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "13"
+    },
+    {
+      "title": "React Developer",
+      "type": "Remote",
+      "description": "Seeking a React Developer for a remote position. The candidate should have experience with React, Redux, and RESTful APIs.",
+      "location": "Remote",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Web Solutions",
+        "description": "Web Solutions is a leading provider of web development services. We are dedicated to delivering high-quality solutions to our clients.",
+        "contactEmail": "contact@websolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "14"
+    },
+    {
       "title": "Senior React Developer",
       "type": "Full-Time",
+      "description": "Join our team as a Senior React Developer in New York, NY. We are looking for an experienced developer with a strong background in React and modern JavaScript frameworks.",
+      "location": "New York, NY",
+      "salary": "$110K - $130K",
+      "company": {
+        "name": "Innovative Tech",
+        "description": "Innovative Tech is a technology company focused on delivering cutting-edge solutions. We foster a collaborative and innovative work environment.",
+        "contactEmail": "contact@innovativetech.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "15"
+    },
+    {
+      "title": "React Native Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a React Native Developer to join our team in San Diego, CA. The ideal candidate will have experience with mobile development and a passion for creating high-quality applications.",
+      "location": "San Diego, CA",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Mobile Solutions",
+        "description": "Mobile Solutions is a company specializing in mobile app development. We are committed to delivering innovative and user-friendly applications.",
+        "contactEmail": "contact@mobilesolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "16"
+    },
+    {
+      "title": "React Front-End Engineer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a React Front-End Engineer in Houston, TX. We are looking for a talented individual with a passion for building scalable web applications.",
+      "location": "Houston, TX",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "Tech Pioneers",
+        "description": "Tech Pioneers is a company dedicated to pushing the boundaries of technology. We offer a dynamic and collaborative work environment.",
+        "contactEmail": "contact@techpioneers.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "17"
+    },
+    {
+      "title": "React Developer",
+      "type": "Part-Time",
+      "description": "Join our team as a Part-Time React Developer in San Jose, CA. We are looking for a self-motivated individual with experience in React and a passion for creating engaging user experiences.",
+      "location": "San Jose, CA",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Creative Solutions",
+        "description": "Creative Solutions is a company specializing in digital design and development. We value creativity, innovation, and collaboration.",
+        "contactEmail": "contact@creativesolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "18"
+    },
+    {
+      "title": "React.js Engineer",
+      "type": "Full-Time",
+      "description": "We are looking for a React.js Engineer to join our team in Philadelphia, PA. The ideal candidate will have experience with React, Redux, and modern JavaScript frameworks.",
+      "location": "Philadelphia, PA",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a forward-thinking company specializing in web development and digital transformation. We value creativity, collaboration, and continuous learning.",
+        "contactEmail": "contact@techinnovators.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "19"
+    },
+    {
+      "title": "React Developer",
+      "type": "Remote",
+      "description": "Seeking a React Developer for a remote position. The candidate should have experience with React, Redux, and RESTful APIs.",
+      "location": "Remote",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Web Solutions",
+        "description": "Web Solutions is a leading provider of web development services. We are dedicated to delivering high-quality solutions to our clients.",
+        "contactEmail": "contact@websolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "20"
+    },
+    {
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Senior React Developer in Boston, MA. We are looking for an experienced developer with a strong background in React and modern JavaScript frameworks.",
+      "location": "Boston, MA",
+      "salary": "$110K - $130K",
+      "company": {
+        "name": "Innovative Tech",
+        "description": "Innovative Tech is a technology company focused on delivering cutting-edge solutions. We foster a collaborative and innovative work environment.",
+        "contactEmail": "contact@innovativetech.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "21"
+    },
+    {
+      "title": "Senior React Dev",
+      "type": "Internship",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
       "location": "Boston, MA",
       "salary": "$70K - $80K",
@@ -12,21 +221,22 @@
         "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
         "contactEmail": "contact@teksolutions.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "1"
     },
     {
-      "id": "2",
       "title": "Front-End Engineer (React & Redux)",
-      "type": "Full-Time",
-      "location": "Miami, FL",
+      "type": "Remote",
       "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
+      "location": "Miami, FL",
       "salary": "$70K - $80K",
       "company": {
         "name": "Veneer Solutions",
         "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
         "contactEmail": "contact@loremipsum.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "2"
     },
     {
       "id": "3",
@@ -57,7 +267,6 @@
       }
     },
     {
-      "id": "5",
       "title": "Full Stack React Developer",
       "type": "Full-Time",
       "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
@@ -68,7 +277,8 @@
         "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
         "contactEmail": "contact@consecteturadipisicing.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "5"
     },
     {
       "id": "6",
@@ -82,20 +292,6 @@
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "9843",
-      "title": "testing",
-      "type": "Full-Time",
-      "description": "testing the delete functionality",
-      "location": "testing",
-      "salary": "under $50K",
-      "company": {
-        "name": "student",
-        "description": "jhsdjkfnkl welfniwel  ierfiewjiof ldkshfwe kkiew",
-        "contactEmail": "edyxcode@gmail.com",
-        "contactPhone": "455-55-6--7--7"
       }
     }
   ]
