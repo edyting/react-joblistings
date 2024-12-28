@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id":"1",
+      "id": "1",
       "title": "Senior React Developer",
       "type": "Full-Time",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
@@ -83,7 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "4e1f",
+      "title": "new job 1",
+      "type": "Full-Time",
+      "description": "the first job to be added to the database",
+      "location": "kumasi",
+      "salary": "under $50K",
+      "company": {
+        "name": "edycode",
+        "description": "a web development startup",
+        "contactEmail": "edyxcode@gmail.com",
+        "contactPhone": "455-55-6--7--7"
+      }
     }
   ]
-
 }
