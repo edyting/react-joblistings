@@ -2,7 +2,8 @@
 import { Link, useLoaderData,useNavigate,useParams} from "react-router-dom";
 // import Loader from "../components/Loader";
 import { Props as jobType } from "../components/JobListing";
-import { FaArrowLeft,FaMapMarker } from "react-icons/fa";
+import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
+import {toast} from "react-toastify"
 
 
 const JobPage: React.FC = () => {
@@ -38,6 +39,8 @@ const JobPage: React.FC = () => {
     const res = await fetch(`/api/jobs/${Jobid}`, {
       method: "DELETE",
     });
+
+    toast.success("Job deleted successfully...")
 
     return navigate("/jobs")
 

@@ -83,6 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "9843",
+      "title": "testing",
+      "type": "Full-Time",
+      "description": "testing the delete functionality",
+      "location": "testing",
+      "salary": "under $50K",
+      "company": {
+        "name": "student",
+        "description": "jhsdjkfnkl welfniwel  ierfiewjiof ldkshfwe kkiew",
+        "contactEmail": "edyxcode@gmail.com",
+        "contactPhone": "455-55-6--7--7"
+      }
     }
   ]
 }
