@@ -1,5 +1,5 @@
 // import { useEffect, useState } from "react";
-import { Link, useLoaderData,useParams} from "react-router-dom";
+import { Link, useLoaderData,useNavigate,useParams} from "react-router-dom";
 // import Loader from "../components/Loader";
 import { Props as jobType } from "../components/JobListing";
 import { FaArrowLeft,FaMapMarker } from "react-icons/fa";
@@ -25,6 +25,23 @@ const JobPage: React.FC = () => {
   //   };
   //   fetchJobs();
   // }, [id]);
+
+  // delete job
+  const navigate = useNavigate();
+
+  const handleDelete = async (Jobid) => { 
+    // confirmation message
+    const confirm = window.confirm("Are you sure you want to delete this jobListing?");
+
+    if (!confirm) return
+    
+    const res = await fetch(`/api/jobs/${Jobid}`, {
+      method: "DELETE",
+    });
+
+    return navigate("/jobs")
+
+  };
 
   return (
     <>
@@ -101,7 +118,7 @@ const JobPage: React.FC = () => {
                 >
                   Edit Job
                 </Link>
-                <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block">
+                <button onClick={()=>{handleDelete(job.id)}} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block">
                   Delete Job
                 </button>
               </div>
